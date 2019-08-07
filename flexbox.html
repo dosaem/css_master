@@ -8,7 +8,10 @@
     <style>
       .father {
         display: flex;
-        justify-content: space-around;
+        flex-direction: row; /* if fd=row main=수평 cross=수직 else fd=column main=수직 cross=수평 */
+        justify-content: space-around; /* <-- main axis */
+        align-items: flex-start; /* <-- cross axis */
+        height: 100vh;
       }
       .box {
         width: 300px;
