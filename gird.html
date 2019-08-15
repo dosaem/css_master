@@ -8,9 +8,9 @@
     <style>
       .father {
         display: grid;
-        grid-auto-rows: 200px;
+        /* grid-auto-rows: 200px; */
         grid-gap: 5px;
-        grid-template-columns: repeat(3, 1fr) 4fr;
+        grid-template-columns: min-content repeat(3, 1fr);
       }
       .first {
         background-color: #f1c40f;
@@ -28,7 +28,12 @@
   </head>
   <body>
     <div class="father">
-      <div class="first"></div>
+      <div class="first">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis
+        eligendi inventore odit veniam, temporibus enim soluta blanditiis,
+        quidem nihil consectetur nam architecto a accusamus est sit ea porro
+        impedit suscipit.
+      </div>
       <div class="second"></div>
       <div class="third"></div>
       <div class="fourth"></div>
